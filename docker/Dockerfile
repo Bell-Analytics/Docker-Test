@@ -1,7 +1,7 @@
 FROM python:3
 
-ADD my_script.py /
+ADD panda_test.py /
 
-RUN pip install pystrich
+RUN pip install pandas
 
-CMD [ "python", "./my_script.py"]
+CMD [ "python", "./panda_test.py"]
